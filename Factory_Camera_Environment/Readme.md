@@ -1,11 +1,14 @@
-## Factory Bent System Environment with Camera Integration
+# Factory Bent System Environment with Camera Integration
 In this project Camera integration in ROS2 Jazzy environment using Gazebo simulator
 and ".sdf" format packages for simulating factory bent system has been developed and 
 camera bridge integration in the bent envrionment has been provided and it is ready 
 for Computer Vision Application development and the Gazebo environment is being planned
 to extended and improved for further bent simulations.
 
-'''
+
+## Running ROS2 Gazebo Simulation
+
+```md
 cd ~/ros2_ws
 
 export GZ_VERSION=harmonic
@@ -14,4 +17,45 @@ source /opt/ros/jazzy/setup.bash
 source ~/ros2_ws/install/setup.bash
 
 gz sim ~/ros2_ws/src/factory_bent_project/my_factory_worlds/worlds/factory_conveyor.sdf
-'''
+```
+
+## ROS Gazebo Bridge
+
+```md
+cd ~/ros2_ws
+
+export GZ_VERSION=harmonic
+
+source /opt/ros/jazzy/setup.bash
+source ~/ros2_ws/install/setup.bash
+
+gz sim ~/ros2_ws/src/factory_bent_project/my_factory_worlds/worlds/factory_conveyor.sdf
+```
+
+
+
+## Run Camera Viewer 
+```md
+source /opt/ros/jazzy/setup.bash
+source ~/ros2_ws/install/setup.bash
+
+python3 ~/ros2_ws/src/factory_bent_project/camera_viewer.py
+```
+
+
+## Gazebo GUI Fix
+
+```md
+sudo ufw allow in proto udp to 224.0.0.0/4
+sudo ufw allow in proto udp from 224.0.0.0/4
+```
+
+
+
+## Screenshots
+
+<img width="1920" height="1080" alt="Screenshot from 2026-03-17 08-19-34" src="https://github.com/user-attachments/assets/a9203668-c253-4719-822a-8c9f15fbabb9" />
+
+
+
+
