@@ -54,7 +54,6 @@ sudo ufw allow in proto udp from 224.0.0.0/4
 
 ## Screenshots
 
-<img width="1920" height="1080" alt="Screenshot from 2026-03-17 08-19-34" src="https://github.com/user-attachments/assets/a9203668-c253-4719-822a-8c9f15fbabb9" />
 
 
 
