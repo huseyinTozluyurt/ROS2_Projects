@@ -23,15 +23,10 @@ gz sim ~/ros2_ws/src/factory_bent_project/my_factory_worlds/worlds/factory_conve
 
 ## ROS Gazebo Bridge
 
-```md
-cd ~/ros2_ws
-
-export GZ_VERSION=harmonic
-
-source /opt/ros/jazzy/setup.bash
+```mdsource /opt/ros/jazzy/setup.bash
 source ~/ros2_ws/install/setup.bash
-
-gz sim ~/ros2_ws/src/factory_bent_project/my_factory_worlds/worlds/factory_conveyor.sdf
+ros2 run ros_gz_bridge parameter_bridge \
+/overhead_camera/image@sensor_msgs/msg/Image@gz.msgs.Image
 ```
 
 
