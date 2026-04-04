@@ -1,9 +1,11 @@
-# Factory Bent System Environment with Camera Integration
-In this project Camera integration in ROS2 Jazzy environment using Gazebo simulator
-and ".sdf" format packages for simulating factory bent system has been developed and 
-camera bridge integration in the bent envrionment has been provided and it is ready 
-for Computer Vision Application development and the Gazebo environment is being planned
-to extended and improved for further bent simulations.
+# Vision-Based Object Detection and Control in a ROS2 Gazebo Factory Conveyor SystemIn this project Camera integration in ROS2 Jazzy environment using Gazebo simulator
+
+In this project, a camera-integrated simulation pipeline has been developed within the ROS2 Jazzy environment using the Gazebo simulator and SDF-based world modeling to represent a factory conveyor (bent) system. The system enables real-time image streaming through a ROS2–Gazebo camera bridge, forming a foundation for advanced Computer Vision applications.
+
+Building upon this infrastructure, the project incorporates Object Detection and a fusion of classical Image Processing techniques to analyze visual data from the simulated environment. These include grayscale transformation, region-of-interest (ROI) extraction, contour-based analysis, and feature-based filtering to enhance detection robustness. The integration of these methods allows for efficient detection, localization, and tracking of objects moving along the conveyor.
+
+The architecture is designed to support scalable perception pipelines, where traditional image processing is combined with learning-based approaches (e.g., deep learning models such as YOLO) for improved accuracy and adaptability. The Gazebo environment is structured to be extensible, enabling future enhancements such as multi-object tracking, color-based classification, and robotic manipulation integration based on visual feedback.
+
 
 
 ## Running ROS2 Gazebo Simulation
