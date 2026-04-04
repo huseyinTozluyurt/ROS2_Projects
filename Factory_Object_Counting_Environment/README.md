@@ -1,4 +1,4 @@
-## Vision-Based Object Detection and Control in a ROS2 Gazebo Factory Conveyor System
+# Vision-Based Object Detection and Control in a ROS2 Gazebo Factory Conveyor System
 
 In this project, a camera-integrated simulation pipeline has been developed within the ROS2 Jazzy environment using the Gazebo simulator and SDF-based world modeling to represent a factory conveyor (bent) system. The system enables real-time image streaming through a ROS2–Gazebo camera bridge, forming a foundation for advanced Computer Vision applications.
 
