@@ -1,0 +1,17 @@
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+*.DS_Store
+*.idea/
+*.vscode/
+node_modules/
+build/
+devel/
+log/
+*.pyc
+__pycache__/
+.env
+*.egg-info/
+*.orig
