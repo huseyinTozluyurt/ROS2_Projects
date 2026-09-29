@@ -71,6 +71,11 @@ to extended and improved for further bent simulations.
 
 <img width="1246" height="589" alt="Screenshot from 2026-03-16 06-36-09" src="https://github.com/user-attachments/assets/70231df4-557b-4ec7-8401-feaf62b30b7c" />
 
+## Indoor Autonomous Robot for Delivery
+
+<img width="1920" height="1080" alt="Pasted image" src="https://github.com/user-attachments/assets/aabf35c3-e1eb-4a48-8141-597fa44945eb" />
+
+
 
 
 
